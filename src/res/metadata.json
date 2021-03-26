@@ -1,0 +1,695 @@
+[
+  {
+    "country": "Albania",
+    "code": "AL",
+    "sepa": false,
+    "length": 28,
+    "account_check": false,
+    "branch": false,
+    "format": "AL00########################"
+  },
+  {
+    "country": "Andorra",
+    "code": "AD",
+    "sepa": true,
+    "length": 24,
+    "account_check": false,
+    "branch": true,
+    "format": "AD00####################"
+  },
+  {
+    "country": "Austria",
+    "code": "AT",
+    "sepa": true,
+    "length": 20,
+    "account_check": true,
+    "branch": true,
+    "format": "AT00################"
+  },
+  {
+    "country": "Azerbaijan",
+    "code": "AZ",
+    "sepa": false,
+    "length": 28,
+    "account_check": false,
+    "branch": false,
+    "format": "AZ00AZEJ####################"
+  },
+  {
+    "country": "Bahrain",
+    "code": "BH",
+    "sepa": false,
+    "length": 22,
+    "account_check": false,
+    "branch": false,
+    "format": "BH00CITI##############"
+  },
+  {
+    "country": "Belarus",
+    "code": "BY",
+    "sepa": false,
+    "length": 28,
+    "account_check": false,
+    "branch": false,
+    "format": "BY00AKBB####################"
+  },
+  {
+    "country": "Belgium",
+    "code": "BE",
+    "sepa": true,
+    "length": 16,
+    "account_check": true,
+    "branch": true,
+    "format": "BE00############"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "code": "BA",
+    "sepa": false,
+    "length": 20,
+    "account_check": true,
+    "branch": true,
+    "format": "BA00################"
+  },
+  {
+    "country": "Brazil",
+    "code": "BR",
+    "sepa": false,
+    "length": 29,
+    "account_check": false,
+    "branch": true,
+    "format": "BR00#######################P#"
+  },
+  {
+    "country": "Bulgaria",
+    "code": "BG",
+    "sepa": true,
+    "length": 22,
+    "account_check": false,
+    "branch": true,
+    "format": "BG00RZBB##############"
+  },
+  {
+    "country": "Costa Rica",
+    "code": "CR",
+    "sepa": false,
+    "length": 22,
+    "account_check": true,
+    "branch": false,
+    "format": "CR00##################"
+  },
+  {
+    "country": "Croatia",
+    "code": "HR",
+    "sepa": true,
+    "length": 21,
+    "account_check": true,
+    "branch": false,
+    "format": "HR00#################"
+  },
+  {
+    "country": "Cyprus",
+    "code": "CY",
+    "sepa": true,
+    "length": 28,
+    "account_check": false,
+    "branch": true,
+    "format": "CY00########################"
+  },
+  {
+    "country": "Czech Republic",
+    "code": "CZ",
+    "sepa": true,
+    "length": 24,
+    "account_check": true,
+    "branch": false,
+    "format": "CZ00####################"
+  },
+  {
+    "country": "Denmark",
+    "code": "DK",
+    "sepa": true,
+    "length": 18,
+    "account_check": true,
+    "branch": true,
+    "format": "DK00##############"
+  },
+  {
+    "country": "Dominican Republic",
+    "code": "DO",
+    "sepa": false,
+    "length": 28,
+    "account_check": false,
+    "branch": false,
+    "format": "DO00ACAU####################"
+  },
+  {
+    "country": "Egypt",
+    "code": "EG",
+    "sepa": false,
+    "length": 29,
+    "account_check": false,
+    "branch": false,
+    "format": "EG00#########################"
+  },
+  {
+    "country": "El Salvador",
+    "code": "SV",
+    "sepa": false,
+    "length": 28,
+    "account_check": false,
+    "branch": false,
+    "format": "SV00ACAT####################"
+  },
+  {
+    "country": "Estonia",
+    "code": "EE",
+    "sepa": true,
+    "length": 20,
+    "account_check": true,
+    "branch": true,
+    "format": "EE00################"
+  },
+  {
+    "country": "Faroe Islands",
+    "code": "FO",
+    "sepa": false,
+    "length": 18,
+    "account_check": true,
+    "branch": true,
+    "format": "FO00##############"
+  },
+  {
+    "country": "Finland",
+    "code": "FI",
+    "sepa": true,
+    "length": 18,
+    "account_check": true,
+    "branch": true,
+    "format": "FI00##############"
+  },
+  {
+    "country": "France",
+    "code": "FR",
+    "sepa": true,
+    "length": 27,
+    "account_check": true,
+    "branch": true,
+    "format": "FR00#######################"
+  },
+  {
+    "country": "Georgia",
+    "code": "GE",
+    "sepa": false,
+    "length": 22,
+    "account_check": false,
+    "branch": false,
+    "format": "GE00NB################"
+  },
+  {
+    "country": "Germany",
+    "code": "DE",
+    "sepa": true,
+    "length": 22,
+    "account_check": true,
+    "branch": true,
+    "format": "DE00##################"
+  },
+  {
+    "country": "Gibraltar",
+    "code": "GI",
+    "sepa": true,
+    "length": 23,
+    "account_check": false,
+    "branch": true,
+    "format": "GI00BARC###############"
+  },
+  {
+    "country": "Greece",
+    "code": "GR",
+    "sepa": true,
+    "length": 27,
+    "account_check": false,
+    "branch": true,
+    "format": "GR00#######################"
+  },
+  {
+    "country": "Greenland",
+    "code": "GL",
+    "sepa": false,
+    "length": 18,
+    "account_check": true,
+    "branch": true,
+    "format": "GL00##############"
+  },
+  {
+    "country": "Guatemala",
+    "code": "GT",
+    "sepa": false,
+    "length": 28,
+    "account_check": false,
+    "branch": false,
+    "format": "GT00AGRO####################"
+  },
+  {
+    "country": "Holy See (the)",
+    "code": "VA",
+    "sepa": true,
+    "length": 22,
+    "account_check": false,
+    "branch": false,
+    "format": "VA00##################"
+  },
+  {
+    "country": "Hungary",
+    "code": "HU",
+    "sepa": true,
+    "length": 28,
+    "account_check": true,
+    "branch": true,
+    "format": "HU00########################"
+  },
+  {
+    "country": "Iceland",
+    "code": "IS",
+    "sepa": true,
+    "length": 26,
+    "account_check": true,
+    "branch": true,
+    "format": "IS00######################"
+  },
+  {
+    "country": "Iraq",
+    "code": "IQ",
+    "sepa": false,
+    "length": 23,
+    "account_check": false,
+    "branch": false,
+    "format": "IQ00CBIQ###############"
+  },
+  {
+    "country": "Ireland",
+    "code": "IE",
+    "sepa": true,
+    "length": 22,
+    "account_check": true,
+    "branch": true,
+    "format": "IE00IRCE##############"
+  },
+  {
+    "country": "Israel",
+    "code": "IL",
+    "sepa": false,
+    "length": 23,
+    "account_check": true,
+    "branch": true,
+    "format": "IL00###################"
+  },
+  {
+    "country": "Italy",
+    "code": "IT",
+    "sepa": true,
+    "length": 27,
+    "account_check": true,
+    "branch": true,
+    "format": "IT00X######################"
+  },
+  {
+    "country": "Jordan",
+    "code": "JO",
+    "sepa": false,
+    "length": 30,
+    "account_check": false,
+    "branch": true,
+    "format": "JO00CBJO######################"
+  },
+  {
+    "country": "Kazakhstan",
+    "code": "KZ",
+    "sepa": false,
+    "length": 20,
+    "account_check": false,
+    "branch": false,
+    "format": "KZ00################"
+  },
+  {
+    "country": "Kosovo",
+    "code": "XK",
+    "sepa": false,
+    "length": 20,
+    "account_check": true,
+    "branch": true,
+    "format": "XK00################"
+  },
+  {
+    "country": "Kuwait",
+    "code": "KW",
+    "sepa": false,
+    "length": 30,
+    "account_check": false,
+    "branch": false,
+    "format": "KW00CBKU######################"
+  },
+  {
+    "country": "Latvia",
+    "code": "LV",
+    "sepa": true,
+    "length": 21,
+    "account_check": false,
+    "branch": false,
+    "format": "LV00HABA#############"
+  },
+  {
+    "country": "Lebanon",
+    "code": "LB",
+    "sepa": false,
+    "length": 28,
+    "account_check": false,
+    "branch": false,
+    "format": "LB00########################"
+  },
+  {
+    "country": "Liechtenstein",
+    "code": "LI",
+    "sepa": true,
+    "length": 21,
+    "account_check": true,
+    "branch": true,
+    "format": "LI00#################"
+  },
+  {
+    "country": "Lithuania",
+    "code": "LT",
+    "sepa": true,
+    "length": 20,
+    "account_check": false,
+    "branch": true,
+    "format": "LT00################"
+  },
+  {
+    "country": "Luxembourg",
+    "code": "LU",
+    "sepa": true,
+    "length": 20,
+    "account_check": false,
+    "branch": false,
+    "format": "LU00################"
+  },
+  {
+    "country": "Malta",
+    "code": "MT",
+    "sepa": true,
+    "length": 31,
+    "account_check": false,
+    "branch": true,
+    "format": "MT00MALT#######################"
+  },
+  {
+    "country": "Mauritania",
+    "code": "MR",
+    "sepa": false,
+    "length": 27,
+    "account_check": true,
+    "branch": true,
+    "format": "MR00#######################"
+  },
+  {
+    "country": "Mauritius",
+    "code": "MU",
+    "sepa": false,
+    "length": 30,
+    "account_check": false,
+    "branch": true,
+    "format": "MU00BOMM###################MUR"
+  },
+  {
+    "country": "Moldova",
+    "code": "MD",
+    "sepa": false,
+    "length": 24,
+    "account_check": false,
+    "branch": false,
+    "format": "MD00EX##################"
+  },
+  {
+    "country": "Monaco",
+    "code": "MC",
+    "sepa": true,
+    "length": 27,
+    "account_check": true,
+    "branch": true,
+    "format": "MC00#######################"
+  },
+  {
+    "country": "Montenegro",
+    "code": "ME",
+    "sepa": false,
+    "length": 22,
+    "account_check": true,
+    "branch": false,
+    "format": "ME00##################"
+  },
+  {
+    "country": "Netherlands",
+    "code": "NL",
+    "sepa": true,
+    "length": 18,
+    "account_check": true,
+    "branch": true,
+    "format": "NL00ABNA##########"
+  },
+  {
+    "country": "North Macedonia",
+    "code": "MK",
+    "sepa": false,
+    "length": 19,
+    "account_check": true,
+    "branch": false,
+    "format": "MK00###############"
+  },
+  {
+    "country": "Norway",
+    "code": "NO",
+    "sepa": true,
+    "length": 15,
+    "account_check": true,
+    "branch": true,
+    "format": "NO00###########"
+  },
+  {
+    "country": "Pakistan",
+    "code": "PK",
+    "sepa": false,
+    "length": 24,
+    "account_check": false,
+    "branch": false,
+    "format": "PK00SCBL################"
+  },
+  {
+    "country": "Palestine",
+    "code": "PS",
+    "sepa": false,
+    "length": 29,
+    "account_check": false,
+    "branch": false,
+    "format": "PS00PALS#####################"
+  },
+  {
+    "country": "Poland",
+    "code": "PL",
+    "sepa": true,
+    "length": 28,
+    "account_check": true,
+    "branch": true,
+    "format": "PL00########################"
+  },
+  {
+    "country": "Portugal",
+    "code": "PT",
+    "sepa": true,
+    "length": 25,
+    "account_check": true,
+    "branch": true,
+    "format": "PT00#####################"
+  },
+  {
+    "country": "Qatar",
+    "code": "QA",
+    "sepa": false,
+    "length": 29,
+    "account_check": false,
+    "branch": false,
+    "format": "QA00QNBA#####################"
+  },
+  {
+    "country": "Romania",
+    "code": "RO",
+    "sepa": true,
+    "length": 24,
+    "account_check": false,
+    "branch": false,
+    "format": "RO00BCYP################"
+  },
+  {
+    "country": "Saint Lucia",
+    "code": "LC",
+    "sepa": false,
+    "length": 32,
+    "account_check": false,
+    "branch": false,
+    "format": "LC00BOSL########################"
+  },
+  {
+    "country": "San Marino",
+    "code": "SM",
+    "sepa": true,
+    "length": 27,
+    "account_check": true,
+    "branch": true,
+    "format": "SM00P######################"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "code": "ST",
+    "sepa": false,
+    "length": 25,
+    "account_check": false,
+    "branch": false,
+    "format": "ST00#####################"
+  },
+  {
+    "country": "Saudi Arabia",
+    "code": "SA",
+    "sepa": false,
+    "length": 24,
+    "account_check": false,
+    "branch": false,
+    "format": "SA00####################"
+  },
+  {
+    "country": "Serbia",
+    "code": "RS",
+    "sepa": false,
+    "length": 22,
+    "account_check": true,
+    "branch": false,
+    "format": "RS00##################"
+  },
+  {
+    "country": "Seychelles",
+    "code": "SC",
+    "sepa": false,
+    "length": 31,
+    "account_check": false,
+    "branch": false,
+    "format": "SC00BAHL####################USD"
+  },
+  {
+    "country": "Slovak Republic",
+    "code": "SK",
+    "sepa": true,
+    "length": 24,
+    "account_check": true,
+    "branch": false,
+    "format": "SK00####################"
+  },
+  {
+    "country": "Slovenia",
+    "code": "SI",
+    "sepa": true,
+    "length": 19,
+    "account_check": true,
+    "branch": true,
+    "format": "SI00###############"
+  },
+  {
+    "country": "Spain",
+    "code": "ES",
+    "sepa": true,
+    "length": 24,
+    "account_check": true,
+    "branch": true,
+    "format": "ES00####################"
+  },
+  {
+    "country": "Sweden",
+    "code": "SE",
+    "sepa": true,
+    "length": 24,
+    "account_check": true,
+    "branch": true,
+    "format": "SE00####################"
+  },
+  {
+    "country": "Switzerland",
+    "code": "CH",
+    "sepa": true,
+    "length": 21,
+    "account_check": true,
+    "branch": true,
+    "format": "CH00#################"
+  },
+  {
+    "country": "Timor-Leste",
+    "code": "TL",
+    "sepa": false,
+    "length": 23,
+    "account_check": true,
+    "branch": false,
+    "format": "TL00###################"
+  },
+  {
+    "country": "Tunisia",
+    "code": "TN",
+    "sepa": false,
+    "length": 24,
+    "account_check": true,
+    "branch": true,
+    "format": "TN00####################"
+  },
+  {
+    "country": "Turkey",
+    "code": "TR",
+    "sepa": false,
+    "length": 26,
+    "account_check": false,
+    "branch": true,
+    "format": "TR00######################"
+  },
+  {
+    "country": "Ukraine",
+    "code": "UA",
+    "sepa": false,
+    "length": 29,
+    "account_check": false,
+    "branch": true,
+    "format": "UA00#########################"
+  },
+  {
+    "country": "United Arab Emirates",
+    "code": "AE",
+    "sepa": false,
+    "length": 23,
+    "account_check": false,
+    "branch": false,
+    "format": "AE00###################"
+  },
+  {
+    "country": "United Kingdom",
+    "code": "GB",
+    "sepa": true,
+    "length": 22,
+    "account_check": true,
+    "branch": true,
+    "format": "GB00BUKB##############"
+  },
+  {
+    "country": "Virgin Islands, British",
+    "code": "VG",
+    "sepa": false,
+    "length": 24,
+    "account_check": false,
+    "branch": false,
+    "format": "VG00PACG################"
+  }
+]
