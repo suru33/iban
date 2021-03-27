@@ -510,7 +510,7 @@
     "length": 25,
     "account_check": true,
     "branch": true,
-    "format": "PT00#####################"
+    "format": "PT000002#################"
   },
   {
     "country": "Qatar",

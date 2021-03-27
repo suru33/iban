@@ -14,12 +14,12 @@ pub struct IBANMetaData {
 
 fn mod97(head: &str, tail: &str) -> u32 {
     if tail.len() > 7 {
-        let h = &(format!("{:02}", head.parse::<u32>().unwrap() % 97) + &tail[0..7])[..];
+        let h = &(format!("{:02}", head.parse::<u32>().unwrap() % 97) + &tail[0..7]);
         let t = &tail[7..];
         mod97(h, t)
     } else {
         let h_val = head.parse::<u32>().unwrap() % 97;
-        let t_val = (h_val.to_string() + &tail[..]).parse::<u32>().unwrap();
+        let t_val = (h_val.to_string() + tail).parse::<u32>().unwrap();
         98 - (t_val % 97)
     }
 }
@@ -44,12 +44,23 @@ impl IBANMetaData {
         }
 
         let checksum = format!("{:02}", mod97(&s[0..9], &s[9..]));
-        let mut iban = self.format.replace("00", &checksum);
-        let mut ix = 0;
+
+        let mut iban = self.format.replacen("00", &checksum, 1);
+        let mut i = digits.iter();
         while iban.contains('#') {
-            iban = iban.replacen('#', &digits[ix].to_string()[..], 1);
-            ix += 1;
+            iban = iban.replacen('#', &i.next().unwrap().to_string(), 1);
         }
         iban
+    }
+
+    pub fn get_pretty(&self) -> String {
+        let mut iban = String::new();
+        for (i, ch) in self.get().chars().enumerate() {
+            iban.push(ch);
+            if (i + 1) % 4 == 0 {
+                iban.push(' ');
+            }
+        }
+        iban.trim().to_string()
     }
 }

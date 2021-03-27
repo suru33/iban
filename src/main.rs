@@ -39,21 +39,11 @@ fn main() {
     };
 
     match country {
-        Some(c) => {
-            let iban = c.get();
-            if pretty_print {
-                let mut pp_iban = String::new();
-                for (i, ch) in iban.chars().enumerate() {
-                    pp_iban.push(ch);
-                    if (i + 1) % 4 == 0 {
-                        pp_iban.push(' ');
-                    }
-                }
-                print!("{}", pp_iban.trim());
-            } else {
-                print!("{}", iban);
-            }
-        }
+        Some(c) => if pretty_print {
+            print!("{}", c.get_pretty());
+        } else {
+            print!("{}", c.get());
+        },
         None => {
             eprintln!("Country code not found");
             exit(1);
