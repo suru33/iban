@@ -12,7 +12,7 @@ static IBAN_METADATA: &str = include_str!("res/metadata.json");
 fn main() {
     let arg_matches = App::new("IBAN")
         .version("1.0.0")
-        .about("Validate and generate random IBAN")
+        .about("Validate and generate IBAN")
         .arg(
             Arg::with_name("country_code")
                 .short("c")
