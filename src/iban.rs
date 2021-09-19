@@ -27,7 +27,7 @@ fn mod97(head: &str, tail: &str) -> u32 {
 
 pub fn validate(iban: &str) -> bool {
     let iban = str::replace(iban, " ", "").to_uppercase();
-    let re = Regex::new("^[A-Z]{2}[A-Z0-9]{18,21}[0-9]$").unwrap();
+    let re = Regex::new("^[A-Z]{2}[A-Z0-9]{18,22}$").unwrap();
     if re.is_match(&iban) {
         let iban: String = format!("{}{}", &iban[4..], &iban[..4]);
         let mut digits = String::new();

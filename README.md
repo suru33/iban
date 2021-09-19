@@ -1,7 +1,7 @@
 # Generate random IBAN
 
 ```
-cargo install --git https://github.com/suru33/iban.git
+cargo install --git https://github.com/suru33/iban.git --tag v1.0.0
 ```
 
 
