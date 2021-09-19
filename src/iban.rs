@@ -1,4 +1,5 @@
 use rand::Rng;
+use regex::Regex;
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
@@ -21,6 +22,29 @@ fn mod97(head: &str, tail: &str) -> u32 {
         let h_val = head.parse::<u32>().unwrap() % 97;
         let t_val = (h_val.to_string() + tail).parse::<u32>().unwrap();
         98 - (t_val % 97)
+    }
+}
+
+pub fn validate(iban: &str) -> bool {
+    let iban = str::replace(iban, " ", "").to_uppercase();
+    let re = Regex::new("^[A-Z]{2}[A-Z0-9]{18,21}[0-9]$").unwrap();
+    if re.is_match(&iban) {
+        let iban: String = format!("{}{}", &iban[4..], &iban[..4]);
+        let mut digits = String::new();
+        for ch in iban.chars() {
+            if ch.is_alphabetic() {
+                digits.push_str(&(ch as u8 - 55).to_string());
+            } else {
+                digits.push(ch);
+            }
+        }
+        if mod97(&digits[..9], &digits[9..]) == 97 {
+            true
+        } else {
+            false
+        }
+    } else {
+        false
     }
 }
 
