@@ -1,7 +1,9 @@
-# iban
-Generate random IBAN
+# Generate random IBAN
 
-Just run `make`
+```
+cargo install --git https://github.com/suru33/iban.git
+```
+
 
 ```shell
 IBAN 1.0.0
